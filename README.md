@@ -23,3 +23,6 @@ How blog posts appear is determined by `/pages/posts/[slug.js].js` and how the b
 
 ## styled-components
 Styled using styled components, which you can find in the `styled-components` folder. Many of the colors and theme aspects are determined by `data/theme.js`.
+
+## Deployment
+This is a NextJS project, so google how to deploy a NextJS project to your favorite service.
