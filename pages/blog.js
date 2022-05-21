@@ -2,10 +2,11 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import Image from 'next/image';
 import Link from 'next/link';
+import { BlogTitle, BlogWrapper, MainWrapper } from '../styled_components/mainpage';
 
 // The Blog Page Content
 export default function Blog({posts}){
-    return <main>
+    return <MainWrapper>
         {posts.map(post => {
             //extract slug and frontmatter
             const {slug, frontmatter} = post
@@ -13,15 +14,15 @@ export default function Blog({posts}){
             const {title, author, category, date, bannerImage, tags} = frontmatter
 
             //JSX for individual blog listing
-            return <article key={title}>
+            return <BlogWrapper key={title}>
                 <Link href={`/posts/${slug}`}>
-                    <h1>{title}</h1>
+                    <BlogTitle>{title}</BlogTitle>
                 </Link>
                 <h3>{author}</h3>
                 <h3>{date}</h3>
-            </article>
+            </BlogWrapper>
         })}
-    </main>
+    </MainWrapper>
 }
 
 

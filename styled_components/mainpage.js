@@ -49,3 +49,32 @@ color: ${theme.color3};
 border-radius: 25px;
 padding: 10px;
 `
+
+export const BlogWrapper = styled.article`
+width: 325px;
+margin: auto;
+text-align: center;
+color: ${theme.color3};
+border: 3px solid ${theme.color2}
+`
+
+export const BlogTitle = styled.h1`
+&:hover {
+    cursor: pointer;
+    color: ${theme.color1}
+}
+`
+
+export const PostImage = styled.img`
+width: 700px;
+height: 500px;
+object-fit: cover;
+`
+
+export const PostWrapper = styled.main`
+width: ${theme.pageWidth};
+margin: 20px auto;
+text-align: center;
+color: ${theme.color3};
+border: 3px solid ${theme.color2}
+`
