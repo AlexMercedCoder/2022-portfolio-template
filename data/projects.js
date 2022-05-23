@@ -1,3 +1,5 @@
+// list your projects in this array
+
 const projects = [
     {
         name: "project 1",

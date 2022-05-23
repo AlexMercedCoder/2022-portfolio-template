@@ -6,6 +6,8 @@ https://github.com/AlexMercedCoder/2022-portfolio-template
 
 Then clone the template so you can work on it.
 
+[Video On How to use this Template](https://youtu.be/JspsbFj5BlA)
+
 #### Data
 
 In the data folder you can find 
@@ -26,3 +28,7 @@ Styled using styled components, which you can find in the `styled-components` fo
 
 ## Deployment
 This is a NextJS project, so google how to deploy a NextJS project to your favorite service.
+
+- [Deploy NextJS to Netlify](https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/)
+- [Deploy NextJS to Vercel](https://nextjs.org/docs/deployment)
+- [Deploy NextJS to Render.com](https://render.com/docs/deploy-nextjs-app)
